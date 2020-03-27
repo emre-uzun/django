@@ -25,3 +25,18 @@ URL anadizin oluşturmak için App'in view'ı projenin URL'ine import edilir.
 >from AppName import views
 
 >path('', views.home)
+
+AppName views'da django.http in içindeki HttpResponse import edilir.
+
+HTTP Response çalıştırılmıştır.
+
+-------------
+
+## Template Oluşturma
+
+AppName altına gelinir ve sağ tıklayarak templates klasörü altına da AppName oluşturulur. 
+
+AppName icine *.html uzantılı bir dosya oluşturulur ve views'den aşağıdaki gibi çağırılır.
+
+> return render(request, "templates/AppName/xxxx.html")
+
