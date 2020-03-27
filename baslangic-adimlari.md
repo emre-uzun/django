@@ -38,5 +38,5 @@ AppName altına gelinir ve sağ tıklayarak templates klasörü altına da AppNa
 
 AppName icine *.html uzantılı bir dosya oluşturulur ve views'den aşağıdaki gibi çağırılır.
 
-> return render(request, "templates/AppName/xxxx.html")
+> return render(request, "templates/AppName/xxxx.html", {'password':'test1234'})
 
