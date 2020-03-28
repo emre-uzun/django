@@ -40,3 +40,7 @@ AppName icine *.html uzantılı bir dosya oluşturulur ve views'den aşağıdaki
 
 > return render(request, "templates/AppName/xxxx.html", {'password':'test1234'})
 
+## Model Update
+
+python manage.py makemigrations
+python manage.py migrate
