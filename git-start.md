@@ -19,3 +19,16 @@ Git Durumuna bakmak ve Bütün Dosyaları Eklemek:
 git status
 git add --All
 ```
+
+Commit:
+
+```
+git commit -m "First Commit"
+```
+
+İstenilen commit e geri dönme:
+
+```
+git log
+git checkout <commitNo>
+```
