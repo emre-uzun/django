@@ -1,7 +1,9 @@
-#GİT
+# GİT
 
 İlgili klasöre gidilir.
 
-> git init
+```
+git init
+```
 
 yapılır.
