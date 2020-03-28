@@ -32,3 +32,11 @@ git commit -m "First Commit"
 git log
 git checkout <commitNo>
 ```
+
+remote repository kayıt ve gönderim:
+
+```
+git remote add origin https://github.com/emre-uzun/django3-password-generator.git
+git push -u origin master
+```
+
