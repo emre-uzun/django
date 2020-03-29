@@ -40,3 +40,10 @@ git remote add origin https://github.com/emre-uzun/django3-password-generator.gi
 git push -u origin master
 ```
 
+Gitignore yapılabilir.
+
+Mevcuttaki kodu çekme
+```
+git pull origin
+```
+
