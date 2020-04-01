@@ -43,10 +43,12 @@ AppName icine *.html uzantılı bir dosya oluşturulur ve views'den aşağıdaki
 ## Model Update
 
 python manage.py makemigrations
+
 python manage.py migrate
 
 
 ## pip commands:
 
 pip freeze > requirements.txt
+
 pip install -r requirements.txt
