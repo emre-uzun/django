@@ -52,3 +52,14 @@ python manage.py migrate
 pip freeze > requirements.txt
 
 pip install -r requirements.txt
+
+
+## Sorunları çözme:
+
+### Remote DB'de tablolarda refresh yapma, db ismi değiştiğinde de yapılabilir.
+
+python manage.py migrate --fake offsecPostgre zero
+python manage.py makemigrations
+python manage.py migrate --fake-initial
+
+
